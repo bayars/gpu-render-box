@@ -1,0 +1,14 @@
+# Copy to config.local.sh (gitignored) on any machine that needs different settings.
+# Every setting and its default is in scripts/config.sh; set only what differs.
+
+# laptop
+#REMOTE=gpubox                     # SSH alias of the GPU box (~/.ssh/config)
+#REMOTE_REPO=work/gpu-render-box   # the GPU box's checkout, relative to its home
+#TIMEOUT=2h                        # passed to the GPU box for each job
+
+# GPU box
+#BLENDER=/opt/blender/blender
+#GODOT=/opt/godot/godot
+#LOG_DIR=$HOME/work/logs
+#GPU_LOCK=/tmp/gpu.lock
+#MAX_TEMP=80

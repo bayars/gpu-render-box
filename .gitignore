@@ -1,0 +1,7 @@
+renders/
+build/
+.godot/
+*.log
+*.import-cache
+config.local.sh
+override.cfg
